@@ -1,0 +1,98 @@
+[
+  {
+    "id": "entrance_hall",
+    "type": "entrance",
+    "doors": ["N", "E", "S", "W"],
+    "minTier": 0,
+    "maxTier": 0,
+    "biomeTags": ["universal"],
+    "tags": ["safe"],
+    "tilemapKey": "dungeon_volcanic_entrance_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "boss_arena_volcanic",
+    "type": "boss",
+    "doors": ["N", "E", "S", "W"],
+    "minTier": 0,
+    "maxTier": 3,
+    "biomeTags": ["universal"],
+    "tags": ["boss_room"],
+    "tilemapKey": "dungeon_volcanic_boss_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "combat_hall_full",
+    "type": "combat",
+    "doors": ["N", "E", "S", "W"],
+    "minTier": 0,
+    "maxTier": 3,
+    "biomeTags": ["universal"],
+    "tags": ["open_room"],
+    "tilemapKey": "dungeon_volcanic_hall_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "combat_corridor_ns",
+    "type": "combat",
+    "doors": ["N", "S"],
+    "minTier": 0,
+    "maxTier": 2,
+    "biomeTags": ["volcanic_caverns"],
+    "tags": ["narrow"],
+    "tilemapKey": "dungeon_volcanic_corridor_ns_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "combat_corner_ne",
+    "type": "combat",
+    "doors": ["N", "E"],
+    "minTier": 0,
+    "maxTier": 2,
+    "biomeTags": ["volcanic_caverns"],
+    "tags": ["corner"],
+    "tilemapKey": "dungeon_volcanic_corner_ne_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "combat_junction_nes",
+    "type": "combat",
+    "doors": ["N", "E", "S"],
+    "minTier": 1,
+    "maxTier": 3,
+    "biomeTags": ["volcanic_caverns"],
+    "tags": ["fire_hazard", "junction"],
+    "tilemapKey": "dungeon_volcanic_junction_nes_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "treasure_vault",
+    "type": "treasure",
+    "doors": ["N", "E", "S", "W"],
+    "minTier": 0,
+    "maxTier": 3,
+    "biomeTags": ["universal"],
+    "tags": ["loot_rich"],
+    "tilemapKey": "dungeon_volcanic_vault_01",
+    "width": 1,
+    "height": 1
+  },
+  {
+    "id": "secret_grotto",
+    "type": "secret",
+    "doors": ["N", "E", "S", "W"],
+    "minTier": 0,
+    "maxTier": 3,
+    "biomeTags": ["universal"],
+    "tags": ["hidden"],
+    "tilemapKey": "dungeon_volcanic_grotto_01",
+    "width": 1,
+    "height": 1
+  }
+]
